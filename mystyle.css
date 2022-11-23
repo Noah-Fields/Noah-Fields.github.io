@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(42, 6, 77);
+}
+
+p {
+    color:rgb(0, 202, 0);
+}
+
+a {
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color:rgb(0, 202, 0);
+    align-items: center;
+    font-size: 35;
+}
+
+table {
+    float: right;
+    width: 50%;
+    background-color: bisque;
+    border-radius: 20%;
+    border-style: double;
+    border-color: blue;
+    border-width: 5px;
+    justify-content: space-between;
+}
+
+tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+td {
+    float: left;
+    display: inline;
+    font-size: 25;
+    text-align: center;
+}
+
+#fancify fieldset {
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18;
+    color:gold;
+}
+
+#fancify textarea {
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: monospace;
+    color:black;
+}
+
+#fancify legend {
+    font-family: monospace;
+    color:gold;
+}
+
+#fancify h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color:gold;
+    align-items: center;
+    font-size: 25;
+}

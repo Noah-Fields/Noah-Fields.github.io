@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="mystyle.css">
+<head>
+	<title>Fancify Shamcify</title>
+	<meta charset="utf-8" />
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="fancifymytext.js"></script>
+</head>
+
+<body>
+	<div id="nav-placeholder"></div>
+	<script>
+		$(function(){
+		$("#nav-placeholder").load("nav.html");
+		});
+	</script>
+	<div id="fancify">
+		<div class="center">
+			<h1>Fancify my Text</h1>
+		</div>
+
+		<div class="center">
+			<fieldset>
+				<legend>Text</legend>
+				<textarea id="text" rows="4" cols="30"></textarea>
+			</fieldset>
+		</div>
+
+		<div class="center">
+			<fieldset>
+				<legend>Fancify</legend>
+				<button onclick="bigger();">! Bigger !</button>
+				<br>
+				<br>
+				<input type="radio" name="switch" id="fancy" onchange="fancy();">FancyShmancy</input>
+				<br>
+				<input type="radio" name="switch" onchange="boring();">BoringBetty</input>
+				<br>
+				<br>
+				<button onclick="moo();">! Moo !</button>
+			</fieldset>
+		</div>
+		
+	</div>
+	
+</body>
