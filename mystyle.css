@@ -27,6 +27,10 @@ h1 {
     font-size: 35;
 }
 
+h2 {
+    color:rgb(0, 202, 0);
+}
+
 table {
     float: right;
     width: 50%;
